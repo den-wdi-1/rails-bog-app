@@ -117,7 +117,7 @@ Your routes tell your app how to direct **HTTP requests** to **controller action
   Rails.application.routes.draw do
     root "creatures#index"
 
-    resources creatures
+    resources :creatures
 
   end
   ```
